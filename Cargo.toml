@@ -1,0 +1,13 @@
+[package]
+name = "aorb"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A shadow testing library for JS/TS"
+repository = "https://github.com/irjones/aorb"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
